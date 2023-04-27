@@ -1,0 +1,12 @@
+.bottomNavigation{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#4682B4;
+    overflow: hidden;
+    color: aquamarine;
+    text-align: center;
+    position: fixed;
+
+
+}

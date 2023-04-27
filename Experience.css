@@ -1,0 +1,21 @@
+table {
+    border: solid 1pt black;
+
+}
+
+td {
+    border: solid 1pt black;
+    color: white;
+    
+}
+
+caption {
+    text-align: center;
+    background-color: lightskyblue;
+    color: black;
+
+}
+
+th {
+    background-color: lightgray;
+}

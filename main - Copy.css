@@ -1,0 +1,123 @@
+.flex-container {
+    display: flex;
+  }
+
+
+/*body*/
+h1{
+    text-align: center;
+    font-family: 'Alex Brush';font-size: 100px;
+    color: aquamarine;
+}
+
+h3{
+
+    font-family: 'Alex Brush';font-size: 50px;
+    color: wheat;
+
+}
+
+/*nav*/
+.topNavigation{
+    background-color:#c5cbd0;
+    overflow: hidden;
+}
+
+.topNavigation a{
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 18px;
+}
+
+.topNavigation a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.topNavigation a.split{
+    float: right;
+    background-color: grey;
+    color: black;
+}
+
+body{
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /* background-image: url('mpwallpaper.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-color: white;
+}
+
+/*Bottom nav*/
+
+
+.bottomNavigation{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#4682B4;
+    overflow: hidden;
+    color: aquamarine;
+    text-align: center;
+    position: fixed;
+
+
+}
+
+
+/*about*/
+
+
+.cont{
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 30%;
+    max-height: 20%;
+    float: left;
+    
+}
+
+.text{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+
+input[type = email], input[type = password]{
+
+
+    width: 100%;
+    padding: 15px 15px;
+    display: inline-block;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+
+
+}
+
+
+button {
+
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    width: 100%;
+
+    
+}
+
+
+.val-error{color: #ff0000;}
+
+.current-tab{color:green;background-color:magenta;}

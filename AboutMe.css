@@ -1,0 +1,45 @@
+.cont{
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 30%;
+    max-height: 20%;
+    float: left;
+    
+}
+
+.text{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+   
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+}
+
+
+input[type = email], input[type = password]{
+
+
+    width: 100%;
+    padding: 15px 15px;
+    display: inline-block;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+
+
+}
+
+
+button {
+
+    background-color: aquamarine;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    width: 100%;
+
+    
+}

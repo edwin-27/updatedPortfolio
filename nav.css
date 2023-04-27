@@ -1,0 +1,32 @@
+.topNavigation{
+    background-color:#c5cbd0;
+    overflow: hidden;
+}
+
+.topNavigation a{
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 18px;
+}
+
+.topNavigation a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.topNavigation a.split{
+    float: right;
+    background-color: grey;
+    color: black;
+}
+
+body{
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    /* background-image: url('mpwallpaper.jpg'); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-color: white;
+}
